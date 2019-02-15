@@ -1,0 +1,9 @@
+# Goal
+int64 window_size                  # sliding window size
+---
+# Result
+geometry_msgs/PoseStamped estimate # final estimate
+---
+# Feedback
+geometry_msgs/PoseStamped estimate # current estimate
+float32 residual_error             # residual error (in rad)

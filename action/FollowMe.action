@@ -1,0 +1,10 @@
+string topic            # path to the full topic or a message field of the type geometry_msgs/PoseStamped to relay to the robot
+float64 margin          # distance margin, stop moving if got closer than margin to the target
+bool ignore_z           # ignore target altitude value
+float64 override_z		# if ignore_z is False, then fly at this height, otherwise at current height
+bool lookat             # if true, turns the robot towards (x,y) point, else the orientation copied directly from the target
+---
+# This action never completes and therefore never succeeds, so there is no result
+---
+float64 distance        # distance to the last point received on topic
+float64 yaw             # angular distance to the last point received on topic

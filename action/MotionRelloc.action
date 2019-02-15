@@ -1,0 +1,6 @@
+duration max_duration
+int64 min_samples
+---
+geometry_msgs/PoseStamped estimate
+---
+int64 samples_counter

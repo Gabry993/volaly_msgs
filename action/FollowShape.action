@@ -1,0 +1,19 @@
+# Type of the path. For now should be 'regular_polygon'
+string  type
+# Number of vertices
+int64   vertices
+
+## Either of the two should be set to 0.0
+# Side of polygon
+float64 side      # side of polygon
+
+# Radius of circumscribed circle
+float64 radius
+
+# Set to true to make robot to keep its initial orientation
+bool fix_orientation
+
+# Pose of the shape with the center at pose.position
+geometry_msgs/PoseStamped pose
+---
+---
