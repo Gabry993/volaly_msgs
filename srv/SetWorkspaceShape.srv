@@ -8,5 +8,6 @@ uint8 WORKSPACE_SPHERE = 3        # Sphere with origin at 'eyes' frame
 
 string robot_frame				  # frame_id of the robot base link
 uint8  workspace_shape            # One of the above values
+bool   force                      # Ignore the safety checks
 ---
 # Empty response
