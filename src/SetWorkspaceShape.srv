@@ -1,0 +1,13 @@
+# All types of workspace shapes are passing through the robot's current position
+# defined by the robot_frame parameter
+
+uint8 WORKSPACE_XY_PLANE = 0      # Horizontal plane
+uint8 WORKSPACE_VISUAL_PLANE = 1  # Plane perpendicular to the horizontal component of eyes-robot direction
+uint8 WORKSPACE_CYLINDER = 2      # Vertical cylinder
+uint8 WORKSPACE_SPHERE = 3        # Sphere with origin at 'eyes' frame
+
+string robot_frame				  # frame_id of the robot base link
+uint8  workspace_shape            # One of the above values
+bool   force                      # Ignore the safety checks
+---
+# Empty response

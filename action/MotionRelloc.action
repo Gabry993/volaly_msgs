@@ -1,4 +1,4 @@
-duration max_duration
+builtin_interfaces/Duration max_duration
 int64 min_samples
 ---
 geometry_msgs/PoseStamped estimate

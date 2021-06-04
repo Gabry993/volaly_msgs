@@ -1,0 +1,13 @@
+float32 max_pause					# max pause in ms
+float32 min_pause					# min pause in ms
+string ws_shape						# workspace shape from which to sample random points (cylinder, cuboid)
+# Distance and delta yaw at which the target is considered
+# as achieved and the next target can be issued
+float32 distance_threshold
+float32 yaw_threshold
+
+---
+---
+# uint64 current_index				# index of current target waypoint
+float32 distance 					# distance to current target
+float32 yaw 						# delta yaw to current target
