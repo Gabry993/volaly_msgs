@@ -1,0 +1,5 @@
+float32 footprint_to_neck
+float32 neck_to_eyes
+float32 neck_to_shoulder
+float32 shoulder_to_wrist
+float32 wrist_to_finger
